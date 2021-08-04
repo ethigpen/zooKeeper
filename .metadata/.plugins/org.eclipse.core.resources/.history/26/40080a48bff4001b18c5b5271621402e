@@ -9,7 +9,7 @@ public class GorillaTest {
 		silverBack.eatBananas();
 		silverBack.eatBananas();
 		silverBack.climb();
-		silverBack.displayEnergy();
+		System.out.println(silverBack.displayEnergy());
 		
 	}
 

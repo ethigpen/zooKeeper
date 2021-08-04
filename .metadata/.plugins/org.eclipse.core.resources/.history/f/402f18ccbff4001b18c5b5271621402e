@@ -1,8 +1,8 @@
 package com.thigpen.zooKeeper;
 
-public class GorillaTest {
+public class BatTest {
 	public static void main(String[] args) {
-		Gorilla silverBack = new Gorilla(150);
+		Bat silverBack = new Bat(300);
 		silverBack.throwSomething();
 		silverBack.throwSomething();
 		silverBack.throwSomething();
@@ -12,5 +12,4 @@ public class GorillaTest {
 		silverBack.displayEnergy();
 		
 	}
-
 }
