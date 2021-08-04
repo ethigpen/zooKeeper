@@ -1,0 +1,16 @@
+package com.thigpen.zooKeeper;
+
+public class Mammal {
+//	member variables
+	public int energyLevel;
+	
+//constructor class
+	public Mammal() {
+		this.energyLevel = 100;
+	}
+	
+	public int displayEnergy() {
+		System.out.println("The mammal's energy level is " + this.energyLevel);
+		return this.energyLevel;
+	}
+}

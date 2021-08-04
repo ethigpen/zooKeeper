@@ -1,0 +1,8 @@
+package com.thigpen.zooKeeper;
+
+public class Gorilla extends Mammal{
+//constructor
+	public Gorilla(int energyLevelInput) {
+		super(energyLevelInput);
+	}
+}
